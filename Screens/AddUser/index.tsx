@@ -13,6 +13,7 @@ const AddUser = () => {
   const dispatch = useAppDispatch();
 
   const isEdit = route.params?.type === 'edit' ? true: false;
+  
   const userToEdit = route.params?.data;
   console.log(userToEdit)
 
